@@ -21,7 +21,7 @@
         $email_body = "You have received a new message. ".
         "Here are the details:\n\n\n Name: $name \n\n ".
         "Email: $email_address\n\n Message \n $message";
-        $headers = "From: info@mennoluimstra.nl\n";
+        $headers = "From: info@kettlebell.frl\n";
         $headers .= "Reply-To: $email_address";
         mail($to,$email_subject,$email_body,$headers);
         //redirect to the ‘thank you’ page
